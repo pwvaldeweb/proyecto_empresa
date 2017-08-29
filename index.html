@@ -61,7 +61,7 @@
       </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
+    <!-- fotos de empleos -->
     <section id="portfolio">
       <div class="container">
         <h2 class="text-center">Servicios</h2>
@@ -131,7 +131,7 @@
       </div>
     </section>
 
-    <!-- About Section -->
+    <!-- seccion de abajo  -->
     <section class="success" id="about">
       <div class="container">
         <h2 class="text-center">Sobre nosotros</h2>
@@ -148,7 +148,7 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- seccion de contacto -->
     <section id="contact">
       <div class="container">
         <h2 class="text-center">Contacte con nosotros</h2>
@@ -259,7 +259,7 @@
       </a>
     </div>
 
-    <!-- Portfolio Modals -->
+    <!-- primer modal de las fotos -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -277,10 +277,10 @@
                   <img class="img-fluid img-centered" src="img/portfolio/cabin.png" alt="">
                   <p>Necesitas reparar algun mueble o una puerta tenemos los mejores carpinteros al mejor precio.
                     </p>
-                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#Modal1">
-  Launch demo modal
+                <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#Modal1">
+  Solicita un servicio
 </button>
-                  <!--<button class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="modal1">Solicitar</button>-->
+                
                 </div>
               </div>
             </div>
@@ -305,12 +305,9 @@
                   <img class="img-fluid img-centered" src="img/portfolio/cake.png" alt="">
                   <p>¿No tienes tiempo de cocinar? Eso ya no es un problema podemos ir a tu casa y preparar un gran menu o llevartelo directamente.</p>
                    
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Ven a Casa</button>
-                    <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Traemelo</button>
+                 
+                    <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#Modal2">
+                    Traemelo a casa</button>
                 </div>
               </div>
             </div>
@@ -335,8 +332,7 @@
                   <img class="img-fluid img-centered" src="img/portfolio/bebes.png" alt="">
                     <p>¿No sabes con quien dejar a tu bebe? No hay problema tenemos las mejores profesionales que le daran el mejor y mas afectuoso trato para que se encuentren como en casa.</p>
                    
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
+                  <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#Modal3">
                     Solicitala</button>
                 </div>
               </div>
@@ -363,8 +359,7 @@
                   <p>Necesitas un profesional para cuidar tus plantas y asesorarte a la hora de decorar tus zonas verdes consultanos.
                     </p>
                   
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
+                  <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#Modal4">
                     Solicitalo</button>
                 </div>
               </div>
@@ -390,8 +385,7 @@
                   <img class="img-fluid img-centered" src="img/portfolio/informatica.png" alt="">
                   <p>¿Tienes problemas con la informatica? Si estas cansado de llevar tu equipo y dejarlo durante semanas nuestros tecnicos se personan en tu casa y lo reparan en un maximo de una hora</p>
                   
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
+                 <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#Modal5">
                     Solicita uno</button>
                 </div>
               </div>
@@ -416,18 +410,14 @@
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" src="img/portfolio/mecanica.png" alt="">
                   <p>¿Necesitas cualquier reparacion de electricidad, mecanica, albañileria o pintura?</p>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
+                  <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#Modal6">
                     Albañileria</button>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
+                  <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#Modal7">
                     Electricista</button>
                    
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
+                  <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#Modal8">
                     Mecanica</button>                   
-                    <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
+                    <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#Modal9">
                     Pintura</button>               
                 </div>
               </div>
@@ -441,12 +431,11 @@
       
       
       
-      
+      <!--modal carpinteria-->
         <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
              <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel">Solicite a su carpintero</h4>
       </div>
       <div class="modal-body">
@@ -456,8 +445,7 @@
         <hr class="star-primary">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+           
             <form name="sentMessage" id="contactForm" novalidate>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls">
@@ -473,6 +461,13 @@
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
+                <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls">
                   <label>Telefono</label>
@@ -483,7 +478,7 @@
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls">
                   <label>Mensaje</label>
-                  <textarea class="form-control" id="message" rows="5" placeholder="Mensaje" required data-validation-required-message="Por favor inserte su Mensaje."></textarea>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Describa brevemente sus necesidades" required data-validation-required-message="Por favor inserte su Mensaje."></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -491,6 +486,7 @@
               <div id="success"></div>
               <div class="form-group">
                 <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Enviar</button>
+                  <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
               </div>
             </form>
           </div>
@@ -498,49 +494,530 @@
       </div>
     </section> 
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+       </div>
+              </div>
+            </div>
+      <!-- modal de cocina-->
+              <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+             <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Solicite a su cocinero/a</h4>
       </div>
-            
-        <!--  <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
+      <div class="modal-body">
+       <section id="contact">
+      <div class="container">
+        <h2 class="text-center">Contacte con nosotros</h2>
+        <hr class="star-primary">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Nombre</label>
+                  <input class="form-control" id="name" type="text" placeholder="Nombre" required data-validation-required-message="Por favor inserte su nombre.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion e-mail</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion de e-mail" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+                <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Telefono</label>
+                  <input class="form-control" id="phone" type="tel" placeholder="Numero de Telefono" required data-validation-required-message="Por favor inserte su telefono.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Mensaje</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Describa brevemente sus necesidades" required data-validation-required-message="Por favor inserte su Mensaje."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Enviar</button>
+                  <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
+              </div>
+            </form>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h2>Carpinteros</h2>
-                  <hr class="star-primary">
-                  
-                
-                 <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <a class="portfolio-link" href="#portfolioModal7" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                </div>
-              </div>
-            
-            </a>Solicitar</button>-->
-                </div>
-              </div>
-            </div>
-        <!--  </div>
         </div>
       </div>
-    </div>
-      <!-- <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
+    </section> 
+      </div>     
+       </div>
+              </div>
+            </div>
+      <!--modal de niñera-->
+      <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+             <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Solicite a su Niñera/a</h4>
+      </div>
+      <div class="modal-body">
+       <section id="contact">
+      <div class="container">
+        <h2 class="text-center">Contacte con nosotros</h2>
+        <hr class="star-primary">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Nombre</label>
+                  <input class="form-control" id="name" type="text" placeholder="Nombre" required data-validation-required-message="Por favor inserte su nombre.">
+                  <p class="help-block text-danger"></p>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/jardinero.png" alt="">
-            </a>
-          </div>-->
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion e-mail</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion de e-mail" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+                <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Telefono</label>
+                  <input class="form-control" id="phone" type="tel" placeholder="Numero de Telefono" required data-validation-required-message="Por favor inserte su telefono.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Mensaje</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Describa brevemente sus necesidades" required data-validation-required-message="Por favor inserte su Mensaje."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Enviar</button>
+                  <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section> 
+      </div>     
+       </div>
+              </div>
+            </div>
+      <!--modal de jardinero-->
+      <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+             <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Solicite a su jardinero/a</h4>
+      </div>
+      <div class="modal-body">
+       <section id="contact">
+      <div class="container">
+        <h2 class="text-center">Contacte con nosotros</h2>
+        <hr class="star-primary">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Nombre</label>
+                  <input class="form-control" id="name" type="text" placeholder="Nombre" required data-validation-required-message="Por favor inserte su nombre.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion e-mail</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion de e-mail" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+                <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Telefono</label>
+                  <input class="form-control" id="phone" type="tel" placeholder="Numero de Telefono" required data-validation-required-message="Por favor inserte su telefono.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Mensaje</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Describa brevemente sus necesidades" required data-validation-required-message="Por favor inserte su Mensaje."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Enviar</button>
+                  <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section> 
+      </div>     
+       </div>
+              </div>
+            </div>
+      <!--modal de informatico-->
+      <div class="modal fade" id="Modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+             <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Solicite a su Informatico/a</h4>
+      </div>
+      <div class="modal-body">
+       <section id="contact">
+      <div class="container">
+        <h2 class="text-center">Contacte con nosotros</h2>
+        <hr class="star-primary">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Nombre</label>
+                  <input class="form-control" id="name" type="text" placeholder="Nombre" required data-validation-required-message="Por favor inserte su nombre.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion e-mail</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion de e-mail" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+                <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Telefono</label>
+                  <input class="form-control" id="phone" type="tel" placeholder="Numero de Telefono" required data-validation-required-message="Por favor inserte su telefono.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Mensaje</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Describa brevemente sus necesidades" required data-validation-required-message="Por favor inserte su Mensaje."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Enviar</button>
+                  <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section> 
+      </div>     
+       </div>
+              </div>
+            </div>
+      <!-- modal de albañileria-->
+      <div class="modal fade" id="Modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+             <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Solicite a su especialista</h4>
+      </div>
+      <div class="modal-body">
+       <section id="contact">
+      <div class="container">
+        <h2 class="text-center">Contacte con nosotros</h2>
+        <hr class="star-primary">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Nombre</label>
+                  <input class="form-control" id="name" type="text" placeholder="Nombre" required data-validation-required-message="Por favor inserte su nombre.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion e-mail</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion de e-mail" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+                <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Telefono</label>
+                  <input class="form-control" id="phone" type="tel" placeholder="Numero de Telefono" required data-validation-required-message="Por favor inserte su telefono.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Mensaje</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Describa brevemente sus necesidades" required data-validation-required-message="Por favor inserte su Mensaje."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Enviar</button>
+                  <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section> 
+      </div>     
+       </div>
+              </div>
+            </div>
+      <!--modal electricidad-->
+       <div class="modal fade" id="Modal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+             <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Solicite a su especialista</h4>
+      </div>
+      <div class="modal-body">
+       <section id="contact">
+      <div class="container">
+        <h2 class="text-center">Contacte con nosotros</h2>
+        <hr class="star-primary">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Nombre</label>
+                  <input class="form-control" id="name" type="text" placeholder="Nombre" required data-validation-required-message="Por favor inserte su nombre.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion e-mail</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion de e-mail" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+                <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Telefono</label>
+                  <input class="form-control" id="phone" type="tel" placeholder="Numero de Telefono" required data-validation-required-message="Por favor inserte su telefono.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Mensaje</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Describa brevemente sus necesidades" required data-validation-required-message="Por favor inserte su Mensaje."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Enviar</button>
+                  <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section> 
+      </div>     
+       </div>
+              </div>
+            </div>
+      <!--modal mecanica-->
+       <div class="modal fade" id="Modal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+             <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Solicite a su Mecanico</h4>
+      </div>
+      <div class="modal-body">
+       <section id="contact">
+      <div class="container">
+        <h2 class="text-center">Contacte con nosotros</h2>
+        <hr class="star-primary">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Nombre</label>
+                  <input class="form-control" id="name" type="text" placeholder="Nombre" required data-validation-required-message="Por favor inserte su nombre.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion e-mail</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion de e-mail" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+                <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Telefono</label>
+                  <input class="form-control" id="phone" type="tel" placeholder="Numero de Telefono" required data-validation-required-message="Por favor inserte su telefono.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Mensaje</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Describa brevemente sus necesidades" required data-validation-required-message="Por favor inserte su Mensaje."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Enviar</button>
+                  <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section> 
+      </div>     
+       </div>
+              </div>
+            </div>
+      <!--modal pintura-->
+       <div class="modal fade" id="Modal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+             <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Solicite a su Pintor</h4>
+      </div>
+      <div class="modal-body">
+       <section id="contact">
+      <div class="container">
+        <h2 class="text-center">Contacte con nosotros</h2>
+        <hr class="star-primary">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Nombre</label>
+                  <input class="form-control" id="name" type="text" placeholder="Nombre" required data-validation-required-message="Por favor inserte su nombre.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion e-mail</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion de e-mail" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+                <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Direccion</label>
+                  <input class="form-control" id="email" type="email" placeholder="Direccion" required data-validation-required-message="Por favor inserte su e-mail.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Telefono</label>
+                  <input class="form-control" id="phone" type="tel" placeholder="Numero de Telefono" required data-validation-required-message="Por favor inserte su telefono.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                  <label>Mensaje</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Describa brevemente sus necesidades" required data-validation-required-message="Por favor inserte su Mensaje."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Enviar</button>
+                  <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Cerrar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section> 
+      </div>     
+       </div>
+              </div>
+            </div>
+      
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
