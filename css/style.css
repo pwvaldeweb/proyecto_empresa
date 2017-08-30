@@ -8,3 +8,37 @@ hr .glyphicon .glyphicon-wrench{
   text-align: center;
   border: none;
   border-top: solid 5px; }
+
+
+
+
+@media (min-width: 576px) {
+  .hidden-sm-up {
+    display: none !important;
+  }
+}
+@media (max-width: 575px) {
+  .hidden-xs-down {
+    display: none !important;
+  }
+}
+
+/*@media (max-width: 767px) {
+  .visible-xs {
+    display: none !important;
+  }
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+
+.visible-xs {
+   display: none ;!important;
+
+}
+.hidden-xs{
+    display: none;!important;
+
+}
+*/
